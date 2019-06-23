@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial';
+    width: 100%;
+    background-color: #b98700;
+    color: white !important;
+}
+
+h1 {
+    margin: auto 0;
+    margin-bottom: 3%;
+}
+
+#EatBurger {
+    float: left;
+    margin-left: 20%;
+
+
+}
+
+/* #devoured {
+    float: left;
+
+} */
+
+li {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+
+#add {
+    clear: both;
+    
+}
+
+.main {
+    background-color: black;
+    margin: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
