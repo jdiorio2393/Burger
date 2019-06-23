@@ -1,8 +1,9 @@
-INSERT INTO burgers (burger_name, price)
-VALUES ("double stack", 11);
+INSERT INTO theburgers (burger_name, price, devoured)
+VALUES ("double stack", 11, false);
 
-INSERT INTO burgers (burger_name, price)
-VALUES ("cheeseburger", 10);
+INSERT INTO theburgers (burger_name, price, devoured)
+VALUES ("cheeseburger", 10, false);
 
-INSERT INTO burgers (burger_name, price)
-VALUES ("bacon burger", 12);
+INSERT INTO theburgers (burger_name, price, devoured)
+VALUES ("bacon burger", 12, false);
+

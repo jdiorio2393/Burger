@@ -6,7 +6,7 @@
 <div id='EatBurger'>
     <h2>Burgers Available to Eat:</h2>
     
-        {{#each burgers}} {{#unless this.devoured}}
+        {{#each theburgers}} {{#unless this.devoured}}
         
             {{this.id}}. {{this.burger_name}}
 
@@ -23,7 +23,7 @@
     <h2>Burgers That Have <br>Been Devoured: </h2>
 
     <ul>
-        {{#each burgers}} {{#if this.devoured}}
+        {{#each theburgers}} {{#if this.devoured}}
         <li>
             
             {{this.id}}. {{this.burger_name}}
